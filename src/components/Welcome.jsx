@@ -8,7 +8,7 @@ const FONT_WEIGHTS = {
   title: { min: 400, max: 900, default: 400 },
 };
 
-const renderText = (text, className, baseWeight = 400) => {
+const renderText = (text, className, baseWeight = 800) => {
   return [...text].map((char, i) => (
     <span
       key={i}
@@ -76,15 +76,20 @@ const Welcome = () => {
     <section id="welcome">
       <p ref={subtitleRef}>
         {renderText(
-          "Hey, I'm JuanYut! welcome to my",
+          "Welcome to my portfolio & digital space ",
           "max-sm:text-2xl text-3xl font-georama",
           100,
         )}
+        <img
+          src="/images/juansantillan_logo_large_1.png"
+          alt="Juan icon"
+          className="w-10 inline-block relative -top-1"
+        />
       </p>
 
       <h1 ref={titleRef} className="mt-7">
         {renderText(
-          "portfolio.",
+          "Juan Santillán",
           "max-sm:text-7xl text-9xl italic font-georama",
           400,
         )}
