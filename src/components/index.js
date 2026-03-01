@@ -4,4 +4,6 @@ import Dock from "./Dock";
 import WindowControls from "./WindowControls";
 import Home from "./Home";
 
-export { Navbar, Welcome, Dock, WindowControls, Home };
+import MobileNavbar from "./mobile/Navbar";
+
+export { Navbar, Welcome, Dock, WindowControls, Home, MobileNavbar };

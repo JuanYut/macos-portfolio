@@ -7,6 +7,8 @@ import ImageFile from "./file/Image";
 import Contact from "./Contact";
 import Photos from "./Photos";
 
+import MobileSafari from "./mobile/Safari";
+
 export {
   Terminal,
   Safari,
@@ -16,4 +18,5 @@ export {
   ImageFile,
   Contact,
   Photos,
+  MobileSafari,
 };
